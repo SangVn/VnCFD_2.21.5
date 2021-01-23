@@ -1,0 +1,6 @@
+#!/bin/bash
+# Copyright (C) 2021  Nguyen Ngoc Sang, <https://github.com/SangVn>
+
+# Terminal: ./compile_fortranlib
+
+python3 -m numpy.f2py -c functions.f95 fluxes.f95 -m fortranlib
